@@ -1,0 +1,99 @@
+/* SignupLogin.css */
+
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #1a1a1a, #000000);
+  padding: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background: #121212;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 20px rgba(138, 0, 212, 0.3);
+  width: 100%;
+  max-width: 400px;
+}
+
+h2 {
+  text-align: center;
+  color: #f1f1f1;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #bbb;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  padding: 12px;
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+  color: #f1f1f1;
+  font-size: 16px;
+  transition: border 0.3s ease;
+}
+
+input:focus {
+  border-color: #8a00d4;
+  outline: none;
+}
+
+.button {
+  background: #8a00d4;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.button:hover {
+  background: #a74efc;
+  transform: scale(1.02);
+}
+
+.footer-text {
+  margin-top: 16px;
+  text-align: center;
+  color: #ccc;
+}
+
+a {
+  display: block;
+  margin-top: 6px;
+  text-align: center;
+  color: #8a00d4;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #a74efc;
+  text-decoration: underline;
+}

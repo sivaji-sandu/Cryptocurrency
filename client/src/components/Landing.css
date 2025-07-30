@@ -1,0 +1,260 @@
+/* Base Styles */
+.landing {
+  background-color: #0d0d0d;
+  color: #e0e0e0;
+  font-family: 'Orbitron', sans-serif;
+  padding: 2rem;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(145deg, #0f0f0f, #1a1a1a);
+  border-radius: 2xl;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+.crypto-cards-section {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: linear-gradient(145deg, #111111, #1c1c1c);
+}
+
+.crypto-cards-section h2 {
+  font-size: 2rem;
+  color: #00ffff;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 10px #00ffff88;
+}
+
+.crypto-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem 1rem;
+}
+
+.crypto-card {
+  background: #1c1c1c;
+  border: 1px solid #00ffff33;
+  padding: 2rem;
+  width: 240px;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.crypto-card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 20px #00ffffaa;
+}
+
+.crypto-card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+.crypto-card h3 {
+  font-size: 1.3rem;
+  color: #00ffff;
+  margin-bottom: 0.5rem;
+}
+
+.crypto-card p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/* Overview Section */
+.overview-section {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.overview-section h2 {
+  font-size: 2rem;
+  color: #ff00cc;
+  text-shadow: 0 0 10px #ff00cc;
+  margin-bottom: 2rem;
+}
+
+.overview-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.overview-card {
+  background-color: #1a1a1a;
+  border: 1px solid #ff00cc33;
+  border-radius: 20px;
+  padding: 1.5rem;
+  width: 280px;
+  transition: all 0.3s ease;
+}
+
+.overview-card:hover {
+  box-shadow: 0 0 12px #ff00ccaa;
+  transform: translateY(-5px);
+}
+
+/* Market Highlights */
+.market-section {
+  padding: 3rem 1rem;
+  background-color: #121212;
+  border-left: 5px solid #00ff88;
+}
+
+.market-section h2 {
+  color: #00ff88;
+  margin-bottom: 1rem;
+}
+
+.market-stats li {
+  list-style: none;
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+/* Timeline */
+.how-it-works {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.how-it-works h2 {
+  color: #00ffff;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 8px #00ffff;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.timeline-step {
+  background: #1f1f1f;
+  border-left: 4px solid #00ffff;
+  padding: 1rem;
+  width: 80%;
+  border-radius: 10px;
+}
+
+/* FAQ Section */
+.faq-section {
+  padding: 4rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.faq {
+  margin-bottom: 1.5rem;
+}
+
+.faq-question {
+  background-color: #292929;
+  padding: 1rem;
+  cursor: pointer;
+  border-left: 4px solid #ffcc00;
+  transition: all 0.3s ease;
+}
+
+.faq-question:hover {
+  background-color: #333;
+}
+
+.faq-answer {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  border-left: 4px solid #ffcc00;
+  border-top: 1px solid #333;
+}
+
+/* News Section */
+.news-section {
+  padding: 4rem 1rem;
+  background-color: #0f0f0f;
+  text-align: center;
+}
+
+.news-section h2 {
+  color: #00ffff;
+  margin-bottom: 2rem;
+}
+
+.news-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.news-card {
+  background-color: #191919;
+  border: 1px solid #00ffff33;
+  padding: 1rem;
+  width: 300px;
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+.news-card:hover {
+  box-shadow: 0 0 10px #00ffff;
+  transform: translateY(-5px);
+}
+
+/* CTA Section */
+.cta-section {
+  padding: 4rem 1rem;
+  text-align: center;
+  background-color: #111;
+  border-top: 1px dashed #00ffff33;
+}
+
+.cta-section h2 {
+  color: #00ffcc;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 10px #00ffcc;
+}
+
+.auth-buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.signup-btn, .login-btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  border: 2px solid #00ffff;
+  color: #00ffff;
+  border-radius: 8px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.signup-btn:hover, .login-btn:hover {
+  background: #00ffff;
+  color: #000;
+  box-shadow: 0 0 12px #00ffff88;
+}
